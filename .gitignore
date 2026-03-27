@@ -1,0 +1,9 @@
+.env
+
+/data/
+/models/
+
+/.direnv/
+/.venv/
+
+__pycache__/

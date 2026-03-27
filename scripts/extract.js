@@ -1,4 +1,4 @@
-// Run the following file in browser devtools console
+// NOTE: run the following file in browser devtools console
 
 const targets = [];
 
@@ -18,3 +18,5 @@ for (const node of nodes) {
 }
 
 console.log(JSON.stringify(targets, null, 4));
+
+// NOTE: copy the output into `data/sections.json`
