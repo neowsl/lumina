@@ -20,7 +20,7 @@
 ---
 
 ## 🚀 Engineering Phases
-1. Data Ingestion & Enrichment (The ETL Pipeline)
+### 1. Data Ingestion & Enrichment (The ETL Pipeline)
 
 We successfully moved from unstructured, web-based course modules to a structured, LLM-enhanced knowledge base.
 
@@ -28,7 +28,7 @@ The "Hybrid" Extraction Strategy: Rather than building a brittle web scraper, we
 
 Silver Labeling: During ingestion, we use a quantised Llama-3.2-1B model to "silver-label" raw HTML. The LLM automatically extracts core concepts (e.g., "Reference Semantics") and assesses relative difficulty for smarter ranking.
 
-2. Neural Retrieval & TUI (The Search Engine)
+### 2. Neural Retrieval & TUI (The Search Engine)
 
 We implemented a semantic retrieval layer to bridge the gap between student queries and curriculum data.
 
